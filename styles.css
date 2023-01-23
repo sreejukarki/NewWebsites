@@ -1,0 +1,187 @@
+body{
+  font-family: 'Montserrat';
+}
+#title {
+  background-color: #ff4c68;
+  color:#fff;
+  padding: 0 8% 10% 7%;
+}
+
+
+
+h1 {
+  font-family: 'Montserrat-Black';
+ font-size: 6rem;
+ line-height: 1.5;
+
+}
+h2{
+  font-family: "Montserrat-Bold";
+  font-size: 3rem;
+  line-height: 3;
+}
+.container-fluid {
+  padding:2% 15%;
+
+}
+/*navigation bar*/
+.navbar{
+  padding:0 0 5rem;
+  margin: 2% 2% 2% 2%;
+}
+
+ .navbar-brand{
+   font-family: "Ubuntu";
+   font-size: 3.5rem;
+   font-weight: bold;
+
+ }
+ .nav-item{
+   padding:0 18px;
+ }
+/*Download buttons*/
+.dowload-button{
+  margin: 6% 4% 6% 0;
+}
+.sirju{
+  margin:3% 0 5% 0;
+  font-family: cursive;
+}
+.title-image{
+  width: 20%;
+  transform: rotate(25deg);
+
+  position: absolute;
+
+}
+@media (max-width: 1028px){
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
+#title{
+  text-align: center;
+}
+/*features*/
+
+#features{
+  padding: 7% 15%;
+
+  background-color: #fff;
+  position:relative;
+  z-index: 1;
+
+}
+h3{
+  font-family: "Montserrat-Bold";
+  line-height: 1.5rem;
+
+}
+p{
+  color:#8f8f8f;
+}
+.fa:hover{
+  color:#ff4c68;
+}
+/*features box class*/
+.icon{
+  text-align: center;
+  padding: 5%;
+
+}
+/* yo icon ko color ra space ko lagi*/
+.fa{
+  color:#ef8172;
+  margin-bottom: 1rem;
+}
+/* purai testimonial lai nai chnage gareko*/
+#testimonials{
+
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+    /* purai image ko features chnage gareko width 100 gare paxi circle hunxa ra margin le texrt ra image ko gap pura garxa*/
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin:2%;
+}
+/*purai logo lai nai modify gareko*/
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+/* logo ko width ani space haru milako*/
+.press-logo{
+  width:15%;
+  margin:20px 20px;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.card{
+  text-align: center;
+}
+/*pricing section*/
+#pricing{
+  padding: 100px;
+}
+.text{
+  margin: 3% 0 5% 0;
+  text-align:center;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+.image {
+  width: 50%;
+
+  margin:5%;
+
+}
+.founder{
+  background-color: #F48484;
+  text-align: center;
+  padding: 5% 25%;
+
+
+}
+.pp{
+  color: #fff;
+  line-height: 2rem;
+ font-weight: bolder;
+  margin-bottom: 6%;
+}
+.tt{
+  font-style: italic;
+
+  line-height: 2;
+  font-weight: normal;
+}
+#cta{
+  text-align: center;
+  padding: 10% 10%;
+  background-color: #ff4c68;
+
+}
+.h3{
+  font-family: 'Montserrat-Black';
+ font-size: 6rem;
+ line-height: 3rem;
+  color: #fff;
+  font-weight: bolder;
+
+}
+.btn{
+  margin: 6% 4% 6% 0;
+}
+#footer{
+  padding: 7% 6%;
+  text-align: center;
+}
+.f{
+  margin: 1% 1%;
+}
